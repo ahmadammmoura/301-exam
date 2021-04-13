@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style/reset.css">
+    <link rel="stylesheet" href="/style/style.css">
+    <title>exam</title>
+</head>
+<body>
+    <header>
+        <h1>HR system</h1>
+    </header>
+    <main>
+
+        <div class="formBox">
+            <fieldset>
+                <form id="myform">
+                    <h1>Add employee</h1><br>
+                    <label for="Name">Name</label>
+                    <br>
+                    <input type="text" name="Name" id="Name" >
+                    <br>
+                    <label for="Email">Email</label>
+                    <br>
+                    <input type="text" name="Email" id="Email" >
+                    <label for="Department">Department</label>
+                    <select name="Department" id="Department">
+                        <option value="Call-Center">Call-Center</option>
+                        <option value="Information-Technology">Information-Technology</option>
+                        <option value="Human-Resources">Human-Resources</option>
+                      </select>
+                      <input type="submit" value="submit">
+                </form>
+            </fieldset>
+        </div>
+
+
+        <div class="tableBox">
+            <table id="mytable" >
+                <tr>
+                  <th>Name</th>
+                  <th>Email</th>
+                  <th>Department</th>
+                </tr>
+
+            </table>
+
+            <h1 id="total" ></h1>
+        </div>
+
+    </main>
+
+    <footer>
+        <h1> &copy; Ahmad Ammoura</h1>
+    </footer>
+
+    &copy;	
+    <script src="js/main.js"></script>
+</body>
+</html>
